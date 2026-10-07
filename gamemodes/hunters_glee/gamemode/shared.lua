@@ -31,7 +31,7 @@ GM.ISHUNTERSGLEE = true
 
 
 function GM:GetHuntersClass()
-    return "sb_advanced_nextbot_terminator_hunter_snail"
+    return "terminator_nextbot_snail"
 
 end
 
