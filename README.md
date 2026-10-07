@@ -1,7 +1,6 @@
 # Hunter's Glee
 
 A **PVPVE survival gamemode** for Garry's Mod.
----
 
 ## License
 
