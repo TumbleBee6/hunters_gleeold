@@ -1723,7 +1723,7 @@ if CLIENT then
             table.Add( medkits, ents.FindByClass( "item_healthvial" ) )
 
             players = ents.FindByClass( "player" )
-            hunters = ents.FindByClass( "sb_advanced_nextbot_terminator_hunter_*" )
+            hunters = ents.FindByClass( "terminator_nextbot_*" )
 
             bearTraps = ents.FindByClass( "termhunt_bear_trap" )
 
@@ -2324,7 +2324,7 @@ local function additionalHunter( purchaser )
     local timerKey = "spawnExtraHunter_" .. purchaser:GetCreationID()
     timer.Create( timerKey, 0.2, 0, function()
 
-        local spawned, hunter = GAMEMODE:spawnHunter( "sb_advanced_nextbot_terminator_hunter_snail_disguised" )
+        local spawned, hunter = GAMEMODE:spawnHunter( "terminator_nextbot_snail_disguised" )
         if spawned ~= true then return end
 
         if hunter.MimicPlayer then
